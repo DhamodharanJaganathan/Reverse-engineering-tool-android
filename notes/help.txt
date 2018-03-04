@@ -1,0 +1,30 @@
+
+D:\RE-Android>apktool_2.0.0rc3.jar d "Android Wear_1.0.5.1630507.apk"    ---   apktool d name.apk
+
+
+
+Follow the below steps to do so_
+
+Rename your APK file(e.g., rename your APK file to .zip Ex- test.apk -> test.zip) & extract resultant zip file.
+Copy your .dex file in to dex2jar folder.
+Run setclasspath.bat. This should be run because this data is used in the next step.
+Go to Windows Command prompt, change the folder path to the path of your dex2jar folder and run the command as follows: d2j-dex2jar.bat classes.dex
+enjoy!! Your jar file will be ready in the same folder with name classes_dex2jar.jar.
+
+
+
+
+finally put jar to jd gui
+
+
+
+
+
+
+
+
+
+
+
+
+
